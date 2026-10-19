@@ -1,0 +1,217 @@
+{
+  "engine": {
+    "name": "Motor de Vídeos Narrativos Variáveis",
+    "version": "1.0.0"
+  },
+  "job": {
+    "id": "20261010T201303Z-s20261010",
+    "created_at": "2026-10-10T20:13:03.233798+00:00",
+    "seed": 20261010,
+    "topic": "Como o café chegou ao Brasil",
+    "audience": "público geral",
+    "objective": "educar e gerar curiosidade",
+    "cta_text": "Descubra a história completa",
+    "duration_seconds": 60.0,
+    "aspect_ratio": "9:16",
+    "resolution": "1080x1920"
+  },
+  "creative_direction": {
+    "thesis_placeholder": "Uma frase que explique por que Como o café chegou ao Brasil importa.",
+    "narrative_archetype": "reverse_chronology",
+    "narrative_label": "Consequência → retorno às causas → presente",
+    "visual_grammar": "collage_mixed_media",
+    "supporting_visual_grammars": [
+      "motion_typography",
+      "cinematic_broll"
+    ],
+    "color_arc": "dark_to_blue",
+    "cta_style": "soft_invitation",
+    "variation_guard": "Não repetir a mesma combinação de arquétipo, gramática visual, voz e música dos trabalhos recentes."
+  },
+  "audio": {
+    "voice_profile": "warm_female",
+    "voice_name": "Sulafat",
+    "narration_direction_english": "Brazilian Portuguese, natural regional pronunciation, clear documentary storytelling, emotionally controlled and intelligible. Female-presenting, warm, grounded and expressive; calm authority with human closeness. Write and perform only the Portuguese spoken script after the colon. Use short natural pauses after dates, numbers and revelations; do not sound rushed.",
+    "spoken_language": "Portuguese (Brazil)",
+    "language_code": "pt-BR",
+    "music_profile": "curious_minimal",
+    "music_prompt_english": "Instrumental only, no vocals. Minimal marimba or plucked motif, soft bass pulse, small tonal surprises at revelations, playful but credible, never louder than narration. Tempo target: 96–118 BPM. Duration: approximately 60.0 seconds.",
+    "mix_rules": [
+      "Narration stays intelligible and in front.",
+      "Duck music by approximately 8 dB under speech, then adjust by ear.",
+      "Use SFX only for visible or narratively justified events.",
+      "Leave a clean 1.5–2 second musical tail at the ending."
+    ]
+  },
+  "beats": [
+    {
+      "index": 1,
+      "id": "consequence",
+      "time": {
+        "start": 0.0,
+        "end": 7.8,
+        "label": "00:00–00:07"
+      },
+      "narrative_goal": "Começar pela consequência mais surpreendente relacionada a Como o café chegou ao Brasil.",
+      "visual_grammar": [
+        "Colagem de mídias",
+        "Tipografia cinética"
+      ],
+      "visual_direction": "Mostrar Como o café chegou ao Brasil em uma composição que torne visível a ideia narrada; alternar escala e detalhe. Gramática visual dominante: Colagem de mídias.",
+      "camera_move": "rack focus from foreground to background",
+      "motion_notes": "Movimento contínuo, elegante e subordinado à informação; evitar zoom automático em todos os planos.",
+      "transition": "soft_dissolve",
+      "on_screen_text": "Exibir nome, lugar, data ou palavra-chave sobre Como o café chegou ao Brasil; no máximo 8 palavras por entrada, alto contraste e margem segura.",
+      "audio": {
+        "narration": "lead",
+        "music": "below_voice_with_ducking",
+        "sfx": "short airy whoosh for a reveal or transition"
+      },
+      "script_placeholder": "{{TEXTO_DA_BATIDA_1}}"
+    },
+    {
+      "index": 2,
+      "id": "clue",
+      "time": {
+        "start": 7.8,
+        "end": 17.4,
+        "label": "00:07–00:17"
+      },
+      "narrative_goal": "Voltar a uma pista visual ou verbal que explica a consequência.",
+      "visual_grammar": [
+        "Colagem de mídias",
+        "B-roll cinematográfico"
+      ],
+      "visual_direction": "Mostrar Como o café chegou ao Brasil em uma composição que torne visível a ideia narrada; alternar escala e detalhe. Gramática visual dominante: Colagem de mídias.",
+      "camera_move": "short handheld emphasis",
+      "motion_notes": "Movimento contínuo, elegante e subordinado à informação; evitar zoom automático em todos os planos.",
+      "transition": "ink_reveal",
+      "on_screen_text": "Exibir um título curto sincronizado com a fala sobre Como o café chegou ao Brasil; no máximo 8 palavras por entrada, alto contraste e margem segura.",
+      "audio": {
+        "narration": "lead",
+        "music": "below_voice_with_ducking",
+        "sfx": "light cloth, metal or wood foley when the object is visible"
+      },
+      "script_placeholder": "{{TEXTO_DA_BATIDA_2}}"
+    },
+    {
+      "index": 3,
+      "id": "origin",
+      "time": {
+        "start": 17.4,
+        "end": 28.8,
+        "label": "00:17–00:28"
+      },
+      "narrative_goal": "Apresentar o ponto de partida de Como o café chegou ao Brasil e por que ele importa.",
+      "visual_grammar": [
+        "Colagem de mídias",
+        "Tipografia cinética"
+      ],
+      "visual_direction": "Mostrar Como o café chegou ao Brasil em uma composição que torne visível a ideia narrada; alternar escala e detalhe. Gramática visual dominante: Colagem de mídias.",
+      "camera_move": "left-to-right pan",
+      "motion_notes": "Movimento contínuo, elegante e subordinado à informação; evitar zoom automático em todos os planos.",
+      "transition": "match_cut",
+      "on_screen_text": "Exibir nome, lugar, data ou palavra-chave sobre Como o café chegou ao Brasil; no máximo 8 palavras por entrada, alto contraste e margem segura.",
+      "audio": {
+        "narration": "lead",
+        "music": "below_voice_with_ducking",
+        "sfx": "short airy whoosh for a reveal or transition"
+      },
+      "script_placeholder": "{{TEXTO_DA_BATIDA_3}}"
+    },
+    {
+      "index": 4,
+      "id": "turn",
+      "time": {
+        "start": 28.8,
+        "end": 40.2,
+        "label": "00:28–00:40"
+      },
+      "narrative_goal": "Entregar a revelação que reorganiza o que o espectador acabou de ouvir.",
+      "visual_grammar": [
+        "Colagem de mídias",
+        "B-roll cinematográfico"
+      ],
+      "visual_direction": "Mostrar Como o café chegou ao Brasil em uma composição que torne visível a ideia narrada; alternar escala e detalhe. Gramática visual dominante: Colagem de mídias.",
+      "camera_move": "dolly along route",
+      "motion_notes": "Movimento contínuo, elegante e subordinado à informação; evitar zoom automático em todos os planos.",
+      "transition": "darken_turn",
+      "on_screen_text": "Exibir um número ou contraste sobre Como o café chegou ao Brasil; no máximo 8 palavras por entrada, alto contraste e margem segura.",
+      "audio": {
+        "narration": "lead",
+        "music": "below_voice_with_ducking",
+        "sfx": "subtle impact for a date, number or title landing"
+      },
+      "script_placeholder": "{{TEXTO_DA_BATIDA_4}}"
+    },
+    {
+      "index": 5,
+      "id": "present",
+      "time": {
+        "start": 40.2,
+        "end": 52.8,
+        "label": "00:40–00:52"
+      },
+      "narrative_goal": "Trazer a consequência para o presente e tornar a ideia acionável.",
+      "visual_grammar": [
+        "Colagem de mídias",
+        "Tipografia cinética"
+      ],
+      "visual_direction": "Mostrar Como o café chegou ao Brasil em uma composição que torne visível a ideia narrada; alternar escala e detalhe. Gramática visual dominante: Colagem de mídias.",
+      "camera_move": "right-to-left pan",
+      "motion_notes": "Movimento contínuo, elegante e subordinado à informação; evitar zoom automático em todos os planos.",
+      "transition": "cut_on_fact",
+      "on_screen_text": "Exibir nome, lugar, data ou palavra-chave sobre Como o café chegou ao Brasil; no máximo 8 palavras por entrada, alto contraste e margem segura.",
+      "audio": {
+        "narration": "lead",
+        "music": "below_voice_with_ducking",
+        "sfx": "subtle impact for a date, number or title landing"
+      },
+      "script_placeholder": "{{TEXTO_DA_BATIDA_5}}"
+    },
+    {
+      "index": 6,
+      "id": "cta",
+      "time": {
+        "start": 52.8,
+        "end": 60.0,
+        "label": "00:52–01:00"
+      },
+      "narrative_goal": "Fechar com uma ação única e coerente com o objetivo do vídeo.",
+      "visual_grammar": [
+        "Colagem de mídias",
+        "B-roll cinematográfico"
+      ],
+      "visual_direction": "Apresentar a ação final relacionada a Como o café chegou ao Brasil em composição limpa, com espaço negativo para texto e um hold de leitura. Gramática: Colagem de mídias.",
+      "camera_move": "slow pull-back",
+      "motion_notes": "Movimento contínuo, elegante e subordinado à informação; evitar zoom automático em todos os planos.",
+      "transition": "map_wipe",
+      "on_screen_text": "Exibir uma ação direta sobre Como o café chegou ao Brasil; no máximo 8 palavras por entrada, alto contraste e margem segura.",
+      "audio": {
+        "narration": "lead",
+        "music": "below_voice_with_ducking",
+        "sfx": "short airy whoosh for a reveal or transition"
+      },
+      "script_placeholder": "{{TEXTO_DA_BATIDA_6}}"
+    }
+  ],
+  "production_rules": {
+    "subtitle_safe_margin": 0.1,
+    "max_words_on_screen": 8,
+    "preferred_shot_seconds": [
+      2.5,
+      6.5
+    ],
+    "static_image_max_hold_seconds": 5.0,
+    "cta_min_hold_seconds": 2.5,
+    "voice_leads_picture": true,
+    "measure_audio_before_picture_lock": true,
+    "verify_final_with_ffprobe": true
+  },
+  "next_inputs_needed": [
+    "roteiro original ou autorização para o motor escrever o roteiro",
+    "objetivo final e CTA, se diferente do padrão",
+    "referências de produto, pessoa ou marca quando a fidelidade visual for necessária",
+    "assets locais ou autorização para gerar imagens e vídeos complementares"
+  ]
+}

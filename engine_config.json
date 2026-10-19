@@ -1,0 +1,243 @@
+{
+  "engine_name": "Motor de Vídeos Narrativos Variáveis",
+  "version": "1.0.0",
+  "language": "pt-BR",
+  "reference": {
+    "url": "https://www.facebook.com/share/v/1cGWHw6eoc/",
+    "format_observed": "square_social_documentary_ad",
+    "duration_seconds": 191.04,
+    "resolution": "720x720",
+    "frame_rate": 30,
+    "speech_words": 519,
+    "speech_segments": 36,
+    "speech_active_seconds": 186.08,
+    "weighted_words_per_second": 2.79,
+    "loudness_input_i": -14.15,
+    "loudness_input_tp": -1.20,
+    "audio_note": "A análise de loudness serve como referência técnica; o master futuro deve ser verificado no arquivo final."
+  },
+  "defaults": {
+    "aspect_ratio": "9:16",
+    "duration_seconds": 60,
+    "fps": 30,
+    "resolution": "1080x1920",
+    "language_code": "pt-BR",
+    "narration_rate_words_per_second": 2.0,
+    "music_ducking_db": -8,
+    "voice_target_db": -3,
+    "cta_hold_seconds": 3.0
+  },
+  "voice_direction": {
+    "base": "Brazilian Portuguese, natural regional pronunciation, clear documentary storytelling, emotionally controlled and intelligible.",
+    "profiles": [
+      {
+        "id": "epic_grave",
+        "voice_name": "Charon",
+        "direction": "Male-presenting, low, resonant, solemn, measured, cinematic but not theatrical; emphasize dates and revelations with short pauses."
+      },
+      {
+        "id": "informative_warm",
+        "voice_name": "Rasalgethi",
+        "direction": "Male-presenting, knowledgeable, warm and authoritative; steady explanatory rhythm with light curiosity."
+      },
+      {
+        "id": "clear_friendly",
+        "voice_name": "Achird",
+        "direction": "Male-presenting, friendly, clear and conversational; build momentum without sounding like an advertisement."
+      },
+      {
+        "id": "firm_factual",
+        "voice_name": "Orus",
+        "direction": "Male-presenting, firm, precise and confident; controlled intensity for investigative or explanatory topics."
+      },
+      {
+        "id": "warm_female",
+        "voice_name": "Sulafat",
+        "direction": "Female-presenting, warm, grounded and expressive; calm authority with human closeness."
+      },
+      {
+        "id": "bright_female",
+        "voice_name": "Zephyr",
+        "direction": "Female-presenting, bright, articulate and energetic; curious delivery for lighter educational subjects."
+      }
+    ]
+  },
+  "narrative_archetypes": [
+    {
+      "id": "origin_crisis_legacy",
+      "label": "Origem → crise → legado",
+      "beats": ["hook", "origin", "rise", "crisis", "legacy", "cta"],
+      "best_for": ["história", "biografia", "cultura", "marcas com legado"]
+    },
+    {
+      "id": "myth_fact_reveal",
+      "label": "Mito → evidência → revelação",
+      "beats": ["hook", "myth", "evidence", "turn", "meaning", "cta"],
+      "best_for": ["curiosidades", "ciência", "história", "desmistificação"]
+    },
+    {
+      "id": "problem_mechanism_solution",
+      "label": "Problema → mecanismo → solução",
+      "beats": ["hook", "problem", "mechanism", "proof", "solution", "cta"],
+      "best_for": ["educação", "negócios", "tecnologia", "produto"]
+    },
+    {
+      "id": "reverse_chronology",
+      "label": "Consequência → retorno às causas → presente",
+      "beats": ["consequence", "clue", "origin", "turn", "present", "cta"],
+      "best_for": ["casos", "histórias de impacto", "investigação", "documentário"]
+    },
+    {
+      "id": "journey_three_places",
+      "label": "Jornada por três lugares ou momentos",
+      "beats": ["destination", "place_one", "place_two", "place_three", "connection", "cta"],
+      "best_for": ["viagem", "história", "geografia", "cultura"]
+    },
+    {
+      "id": "object_witness",
+      "label": "Um objeto como testemunha",
+      "beats": ["object_hook", "past", "owner", "turn", "legacy", "cta"],
+      "best_for": ["patrimônio", "design", "arte", "memória", "produto"]
+    }
+  ],
+  "visual_grammars": [
+    {
+      "id": "layered_painting",
+      "label": "Pintura em camadas",
+      "tools": ["2.5D parallax", "Ken Burns", "masked foreground", "subtle grain"],
+      "best_for": ["história", "biografia", "cultura"]
+    },
+    {
+      "id": "map_route",
+      "label": "Mapa e percurso",
+      "tools": ["animated route", "coordinate labels", "topographic texture", "push along path"],
+      "best_for": ["viagem", "história", "geografia", "logística"]
+    },
+    {
+      "id": "archive_document",
+      "label": "Documento e arquivo",
+      "tools": ["document close-up", "highlight box", "page turn", "ink reveal"],
+      "best_for": ["investigação", "história", "ciência", "negócios"]
+    },
+    {
+      "id": "object_tabletop",
+      "label": "Objetos em mesa",
+      "tools": ["macro detail", "top-down reveal", "orbit move", "rack focus"],
+      "best_for": ["produto", "design", "memória", "artesanato"]
+    },
+    {
+      "id": "motion_typography",
+      "label": "Tipografia cinética",
+      "tools": ["number burst", "word emphasis", "kinetic underline", "rhythmic scale"],
+      "best_for": ["dados", "ciência", "negócios", "listas"]
+    },
+    {
+      "id": "cinematic_broll",
+      "label": "B-roll cinematográfico",
+      "tools": ["slow dolly", "handheld accent", "wide-to-close contrast", "light leak restraint"],
+      "best_for": ["cultura", "viagem", "histórias humanas", "produto"]
+    },
+    {
+      "id": "collage_mixed_media",
+      "label": "Colagem de mídias",
+      "tools": ["paper collage", "photo cutouts", "stamps", "match cuts"],
+      "best_for": ["arte", "cultura", "história", "criatividade"]
+    }
+  ],
+  "camera_moves": [
+    "slow push-in",
+    "slow pull-back",
+    "left-to-right pan",
+    "right-to-left pan",
+    "vertical reveal",
+    "orbit around subject",
+    "dolly along route",
+    "rack focus from foreground to background",
+    "top-down drop-in",
+    "parallax drift",
+    "locked hold with micro-motion",
+    "short handheld emphasis"
+  ],
+  "transitions": [
+    {"id": "cut_on_fact", "use": "new fact, date or visual evidence"},
+    {"id": "soft_dissolve", "use": "time passage or memory"},
+    {"id": "map_wipe", "use": "geographic movement"},
+    {"id": "ink_reveal", "use": "document or concept reveal"},
+    {"id": "darken_turn", "use": "conflict, risk or reversal"},
+    {"id": "match_cut", "use": "same shape, symbol or object across time"},
+    {"id": "light_lift", "use": "resolution, hope or product reveal"}
+  ],
+  "music_profiles": [
+    {
+      "id": "historical_epic",
+      "direction": "Instrumental only, no vocals. Sparse low strings and distant percussion at the opening, gradual orchestral rise, restrained brass at the turning point, then a clean, warm resolve below narration.",
+      "tempo_bpm": [72, 92]
+    },
+    {
+      "id": "documentary_pulse",
+      "direction": "Instrumental only, no vocals. Pulsing low synth, soft piano or plucked textures, subtle percussive motion, clear chapter lifts, modern factual documentary mood, spacious under voice.",
+      "tempo_bpm": [88, 108]
+    },
+    {
+      "id": "human_memory",
+      "direction": "Instrumental only, no vocals. Warm piano, restrained strings, light organic percussion, intimate opening, emotional lift at the meaning section, gentle ending with room for speech.",
+      "tempo_bpm": [68, 86]
+    },
+    {
+      "id": "curious_minimal",
+      "direction": "Instrumental only, no vocals. Minimal marimba or plucked motif, soft bass pulse, small tonal surprises at revelations, playful but credible, never louder than narration.",
+      "tempo_bpm": [96, 118]
+    },
+    {
+      "id": "premium_product",
+      "direction": "Instrumental only, no vocals. Elegant piano, soft synth bed, gentle cinematic percussion, premium restrained build, open ending for a clear call to action.",
+      "tempo_bpm": [78, 100]
+    }
+  ],
+  "sfx_library": [
+    "soft fire or room ambience only when visible",
+    "paper turn or page brush for documents and books",
+    "short airy whoosh for a reveal or transition",
+    "subtle impact for a date, number or title landing",
+    "distant bell or tonal chime for a conclusion",
+    "map line sweep with a clean short tail",
+    "light cloth, metal or wood foley when the object is visible"
+  ],
+  "color_arcs": [
+    {"id": "dark_to_blue", "arc": "charcoal/ochre → blue/green → warm neutral"},
+    {"id": "sand_to_red_to_gold", "arc": "sand/cream → rust/red → gold/ivory"},
+    {"id": "cool_to_warm", "arc": "slate/teal → neutral → amber"},
+    {"id": "monochrome_accent", "arc": "near monochrome → one accent color → clean CTA"},
+    {"id": "natural_light", "arc": "low contrast → daylight → warm practical light"}
+  ],
+  "anti_repetition": {
+    "history_file": "history.json",
+    "avoid_same_narrative_in_last": 3,
+    "avoid_same_visual_in_last": 2,
+    "avoid_same_music_in_last": 2,
+    "avoid_same_voice_in_last": 2,
+    "minimum_visual_grammars_per_video": 3,
+    "minimum_camera_moves_per_video": 4,
+    "max_consecutive_same_camera_move": 1,
+    "rotate_cta_style": true,
+    "rotate_color_arc": true
+  },
+  "cta_styles": [
+    "direct_action",
+    "save_and_share",
+    "comment_prompt",
+    "learn_more",
+    "soft_invitation",
+    "limited_window"
+  ],
+  "rendering_rules": {
+    "subtitle_safe_margin": 0.10,
+    "max_words_on_screen": 8,
+    "preferred_shot_seconds": [2.5, 6.5],
+    "static_image_max_hold_seconds": 5.0,
+    "cta_min_hold_seconds": 2.5,
+    "voice_leads_picture": true,
+    "measure_audio_before_picture_lock": true,
+    "verify_final_with_ffprobe": true
+  }
+}

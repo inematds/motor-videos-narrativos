@@ -1,0 +1,45 @@
+{
+  "nota": "Hashes dos arquivos recebidos. ZIP incorporado como arquivos individuais; mídia de referência ausente do pacote.",
+  "arquivos": [
+    {
+      "nome": "motor_video.py",
+      "sha256": "a01e41565a2e6f0f673d48d9e4f3ad5f39236a05eaceb8bb85ab797053b03187"
+    },
+    {
+      "nome": "engine_config.json",
+      "sha256": "d5cae3f32e437da74522250fe7af3478fbf5d49866b6675be8dbab15dda350f3"
+    },
+    {
+      "nome": "history.json",
+      "sha256": "dbbf9ed3f39fa4911897301ee0cbf94711994cb7d8bb56b931d02e0846aeaa51"
+    },
+    {
+      "nome": "plano.json",
+      "sha256": "ee4e874f2e8976fb67b61377158e4236f9dcc1c9502b9cb532d2ce4c0cdcba74"
+    },
+    {
+      "nome": "plano (1).json",
+      "sha256": "c19eb6dec4717350e869681972cb6c78d89ad309427cd77641f7a6f257524c85"
+    },
+    {
+      "nome": "Motor de Vídeos Narrativos Variáveis.md",
+      "sha256": "1d0fbc0063d3e1cfdbe4d087b2463b58f07547aec260d86c875d34ad1e061f49"
+    },
+    {
+      "nome": "DNA audiovisual ingerido — vídeo de referência.md",
+      "sha256": "d7b8936c212c45e2f6f922c68b2ba7119203667999ecdd483630457e1b16dae3"
+    },
+    {
+      "nome": "Pacote de prompts — Por que as cidades antigas surgiam perto dos rios.md",
+      "sha256": "0779e7ba14469a301c55c4a10c9473b5016c1081f4472f5369f91f9eec67fbce"
+    },
+    {
+      "nome": "Pacote de prompts — Como o café chegou ao Brasil.md",
+      "sha256": "72190ae205a99ae855cf4cf8fda990d8bff99a2181138889c8e0467cee2241d1"
+    },
+    {
+      "nome": "motor_video_narrativo.zip",
+      "sha256": "b458215c6b6789167f349a2b31b6cf7ec22dba3533c3c5302ad5299fbb6f547f"
+    }
+  ]
+}

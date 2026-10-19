@@ -1,0 +1,6 @@
+history.json
+jobs/
+__pycache__/
+*.pyc
+.env
+*.codex.log
